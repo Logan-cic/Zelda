@@ -20,3 +20,7 @@ void Sword::print( ) const
     cout << "Strength: "   << strength << '\n';
     cout << "Durability: " << durability << '\n';
 }
+
+void Sword::decrement( ){
+    strength -= 2;
+}
